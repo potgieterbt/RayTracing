@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/user/projects/raygun/build/src",
+  "command": "/usr/bin/c++    -o CMakeFiles/RayGun.dir/main.cpp.o -c /home/user/projects/raygun/src/main.cpp",
+  "file": "/home/user/projects/raygun/src/main.cpp",
+  "output": "src/CMakeFiles/RayGun.dir/main.cpp.o"
+}
+]

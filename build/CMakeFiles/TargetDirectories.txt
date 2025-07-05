@@ -1,0 +1,5 @@
+/home/user/projects/raygun/build/CMakeFiles/edit_cache.dir
+/home/user/projects/raygun/build/CMakeFiles/rebuild_cache.dir
+/home/user/projects/raygun/build/src/CMakeFiles/RayGun.dir
+/home/user/projects/raygun/build/src/CMakeFiles/edit_cache.dir
+/home/user/projects/raygun/build/src/CMakeFiles/rebuild_cache.dir
