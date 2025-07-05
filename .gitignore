@@ -43,6 +43,9 @@
 
 /*.ppm
 RayGun
+.cache/
+build/
+
 
 CMakeLists.txt.user
 CMakeCache.txt
