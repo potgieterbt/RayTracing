@@ -42,6 +42,7 @@
 *.dwo
 
 /*.ppm
+RayGun
 
 CMakeLists.txt.user
 CMakeCache.txt
