@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/user/projects/raygun/build/cmake_install.cmake",
-		"/home/user/projects/raygun/build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
