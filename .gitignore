@@ -45,6 +45,8 @@
 RayGun
 .cache/
 build/
+images/
+
 
 CMakeLists.txt.user
 CMakeCache.txt
