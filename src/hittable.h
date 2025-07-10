@@ -34,6 +34,12 @@ public:
   virtual bool hit(const ray &r, interval ray_t, hit_record &rec) const = 0;
 
   virtual aabb bounding_box() const = 0;
+
+  virtual double pdf_value(const point3 &origin, const vec3 &direction) const {
+    return 0.0;
+  }
+
+  virtual vec3 random(const point3 &origin) const { return vec3(1, 0, 0); }
 };
 
 class translate : public hittable {
@@ -115,10 +121,10 @@ public:
     rec.p = point3((cos_theta * rec.p.x()) + (sin_theta * rec.p.z()), rec.p.y(),
                    (-sin_theta * rec.p.x()) + (cos_theta * rec.p.z()));
 
-    rec.p =
-        point3((cos_theta * rec.normal.x()) + (sin_theta * rec.normal.z()),
-               rec.normal.y(),
-               (-sin_theta * rec.normal.x()) + (cos_theta * rec.normal.z()));
+    rec.normal =
+        vec3((cos_theta * rec.normal.x()) + (sin_theta * rec.normal.z()),
+             rec.normal.y(),
+             (-sin_theta * rec.normal.x()) + (cos_theta * rec.normal.z()));
 
     return true;
   }
